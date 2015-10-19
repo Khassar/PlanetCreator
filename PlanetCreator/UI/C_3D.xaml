@@ -1,0 +1,130 @@
+﻿<UserControl x:Class="PlanetCreator.WPF.UI.C_3D" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" mc:Ignorable="d" d:DesignHeight="300"
+        d:DesignWidth="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <Image Grid.Row="0" Grid.Column="0" Source="../Resources/Icons/question.png" Width="16" Height="16"
+                    Margin="4" ToolTipService.ShowDuration="9999999">
+                <Image.ToolTip>
+                    <ToolTip>
+                        <ToolTip.Content>
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="Auto" />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="Auto" />
+                                </Grid.ColumnDefinitions>
+
+                                <TextBlock Grid.Row="0" Grid.Column="0" Text="Level 1" Margin="4" />
+                                <TextBlock Grid.Row="0" Grid.Column="1" Text="Level 3" Margin="4" />
+                                <TextBlock Grid.Row="0" Grid.Column="2" Text="Level 5" Margin="4" />
+
+                                <Image Grid.Row="1" Grid.Column="0" Source="../Resources/recursion_level_1.png" />
+                                <Image Grid.Row="1" Grid.Column="1" Source="../Resources/recursion_level_3.png" />
+                                <Image Grid.Row="1" Grid.Column="2" Source="../Resources/recursion_level_5.png" />
+                            </Grid>
+                        </ToolTip.Content>
+                    </ToolTip>
+                </Image.ToolTip>
+            </Image>
+
+            <TextBlock Grid.Row="0" Grid.Column="1" Text="Recursion level" Margin="4" />
+            <TextBlock Grid.Row="0" Grid.Column="2" Text="{Binding RecursionLevel}" Margin="4" Width="30" />
+            <Slider Grid.Row="0" Grid.Column="3" Minimum="0" Maximum="10" Value="{Binding RecursionLevel}" Margin="4" />
+
+            <!--landscape LandscapeUnder-->
+
+            <TextBlock Grid.Row="1" Grid.Column="1" Text="Landscape under" Margin="4" />
+            <TextBlock Grid.Row="1" Grid.Column="2" Text="{Binding LandscapeOver}" Margin="4" Width="30" />
+            <Slider Grid.Row="1" Grid.Column="3" Minimum="0" Maximum="3" Value="{Binding LandscapeOver}" Margin="4"
+                    TickFrequency="0.01" />
+
+            <TextBlock Grid.Row="2" Grid.Column="1" Text="Landscape over" Margin="4" />
+            <TextBlock Grid.Row="2" Grid.Column="2" Text="{Binding LandscapeUnder}" Margin="4" Width="30" />
+            <Slider Grid.Row="2" Grid.Column="3" Minimum="0" Maximum="3" Value="{Binding LandscapeUnder}" Margin="4"
+                    TickFrequency="0.01" />
+
+            <CheckBox Content="Optimize" Grid.Row="3" Grid.Column="1" Margin="4" IsChecked="{Binding Optimize}" />
+            <TextBlock Grid.Row="3" Grid.Column="2" Text="{Binding OptimizePecent}" Margin="4" Width="30" />
+            <Slider Grid.Row="3" Grid.Column="3" Minimum="1" Maximum="10" Value="{Binding OptimizePecent}"
+                    IsEnabled="{Binding Optimize}" Margin="4" />
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0" Background="#D8D8D8">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                    <Image Source="../Resources/Icons/download.png" Width="16" Height="16" Margin="4" />
+                    <TextBlock Text="Download extentions" VerticalAlignment="Center" />
+                </StackPanel>
+            </Grid>
+            
+            <TextBlock Grid.Row="1" Margin="4">
+                <Hyperlink Click="UnityExtention_Click">Unity Vertex color extention</Hyperlink>
+            </TextBlock>
+
+            <Grid Grid.Row="2" Background="#D8D8D8">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                    <Image Source="../Resources/Icons/download.png" Width="16" Height="16" Margin="4" />
+                    <TextBlock Text="Export models" VerticalAlignment="Center" />
+                </StackPanel>
+            </Grid>
+            
+            <Grid Grid.Row="3">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+
+                <Button Grid.Column="0" Grid.Row="0" Content=".ply" Margin="4" Click="ExportAsPly" />
+                <TextBlock Grid.Column="1" Grid.Row="0" Text="PLY"/>
+
+                <Button Grid.Column="0" Grid.Row="1" Content=".obj" Margin="4" Click="ExportAsObj" />
+                <TextBlock Grid.Column="1" Grid.Row="1" Text="Wavefront" />
+                
+                <Button Grid.Column="0" Grid.Row="2" Content=".dae" Margin="4" Click="ExportAsDae" />
+                <TextBlock Grid.Column="1" Grid.Row="2" Text="Collada" />
+            </Grid>
+        </Grid>
+    </Grid>
+</UserControl>

@@ -1,0 +1,23 @@
+﻿v0.5.2
+
+- New Ui
+- More stable
+- more projections
+- Import/Export Project
+
+v0.2.3
+
+This is the first release of the program. There are a lot of bugs and defects.
+Nevertheless, what is already there and it works.
+
+Innovations:
+- Generation by four threads
+- Editor color schemes planets. landfield and clouds.
+- Normally previews.
+- Export to Png and Jpg formart
+- "Show mode" in order to see more and better texture.
+- 3 types of projection.
+
+bugs:
+- Generation 4000x4000 texture without 4 thread will crash programm.
+- Lots of them.
