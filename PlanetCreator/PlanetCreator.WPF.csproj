@@ -195,13 +195,9 @@
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ALib.WPF\Common.Windows.csproj">
+    <ProjectReference Include="..\Common.Windows\Common.Windows.csproj">
       <Project>{a722a95f-b6bf-4835-9359-9a53db8ba85b}</Project>
       <Name>Common.Windows</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Common\Common.csproj">
-      <Project>{c60ad99a-9980-45d7-bf5d-a782d66753fe}</Project>
-      <Name>Common</Name>
     </ProjectReference>
     <ProjectReference Include="..\PlanetCreatorDll\PlanetCreatorDll.csproj">
       <Project>{a7f90821-4d85-413a-a030-22b0bddbda99}</Project>

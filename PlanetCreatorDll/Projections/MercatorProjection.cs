@@ -1,5 +1,5 @@
 ﻿using System;
-using Common.AMath;
+using PlanetGeneratorDll.AMath;
 
 namespace PlanetGeneratorDll.Projections
 {

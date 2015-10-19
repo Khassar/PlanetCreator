@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Common.Flags
+namespace PlanetGeneratorDll.Flags
 {
     [Flags]
     public enum UColorFlags

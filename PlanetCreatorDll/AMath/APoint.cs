@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
 
-namespace Common.AMath
+namespace PlanetGeneratorDll.AMath
 {
     /// <summary>
     /// Point - Defaults to 0,0

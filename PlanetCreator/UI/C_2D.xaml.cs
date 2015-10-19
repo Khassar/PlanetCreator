@@ -3,9 +3,9 @@ using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Windows;
 using System.Windows.Controls;
-using Common.Helpers;
 using PlanetCreator.WPF.Properties;
 using PlanetGeneratorDll.Enums;
+using PlanetGeneratorDll.Helpers;
 
 namespace PlanetCreator.WPF.UI
 {

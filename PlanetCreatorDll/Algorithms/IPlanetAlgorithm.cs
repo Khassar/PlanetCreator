@@ -1,6 +1,4 @@
-﻿using Common;
-
-namespace PlanetGeneratorDll.Algorithms
+﻿namespace PlanetGeneratorDll.Algorithms
 {
     public interface IPlanetAlgorithm
     {

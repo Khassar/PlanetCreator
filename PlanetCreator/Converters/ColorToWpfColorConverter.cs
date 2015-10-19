@@ -2,7 +2,7 @@
 using System.Globalization;
 using System.Windows.Data;
 using System.Windows.Media;
-using Common;
+using PlanetGeneratorDll;
 
 namespace PlanetCreator.WPF.Converters
 {

@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Linq;
-using Common;
-using Common.AMath;
+using PlanetGeneratorDll.AMath;
 
 namespace PlanetGeneratorDll.Models
 {

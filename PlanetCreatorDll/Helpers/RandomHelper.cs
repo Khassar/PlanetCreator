@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Common.Helpers
+namespace PlanetGeneratorDll.Helpers
 {
     public class RandomHelper
     {

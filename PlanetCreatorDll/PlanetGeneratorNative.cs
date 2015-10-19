@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
-using Common;
-using Common.AMath;
-using Common.Flags;
 using PlanetGeneratorDll.Algorithms;
+using PlanetGeneratorDll.AMath;
 using PlanetGeneratorDll.Enums;
+using PlanetGeneratorDll.Flags;
 using PlanetGeneratorDll.Models;
 
 namespace PlanetGeneratorDll

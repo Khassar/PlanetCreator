@@ -1,6 +1,5 @@
 ﻿using System.Collections.Generic;
 using System.Runtime.Serialization;
-using Common;
 using PlanetGeneratorDll.Enums;
 
 namespace PlanetGeneratorDll.Models

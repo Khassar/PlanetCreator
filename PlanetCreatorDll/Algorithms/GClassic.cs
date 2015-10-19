@@ -1,5 +1,4 @@
 ﻿using System;
-using Common;
 using PlanetGeneratorDll.Enums;
 
 namespace PlanetGeneratorDll.Algorithms

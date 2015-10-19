@@ -4,8 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Xml.Linq;
-using Common;
-using Common.AMath;
+using PlanetGeneratorDll.AMath;
 
 namespace PlanetGeneratorDll.Models
 {
@@ -115,8 +114,8 @@ namespace PlanetGeneratorDll.Models
 
             sb.AppendLine("<asset>");
             sb.AppendLine("<contributor>");
-            sb.AppendFormat("<author>{0}</author>", Common.Constants.AUTHOR);
-            sb.AppendFormat("<authoring_tool>{0} {1}</authoring_tool>", Common.Constants.AUTHOR, Common.Constants.Version);
+            sb.AppendFormat("<author>{0}</author>", Constants.AUTHOR);
+            sb.AppendFormat("<authoring_tool>{0} {1}</authoring_tool>", Constants.AUTHOR, Constants.Version);
             sb.AppendLine("</contributor>");
             sb.AppendFormat("<created>{0}</created>", DateTime.Now);
             sb.AppendFormat("<modified>{0}</modified>", DateTime.Now);

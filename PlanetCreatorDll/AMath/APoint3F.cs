@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Common.AMath
+namespace PlanetGeneratorDll.AMath
 {
     public struct APoint3F
     {

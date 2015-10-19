@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using Common.AMath;
+using PlanetGeneratorDll.AMath;
 
 namespace PlanetGeneratorDll.Models
 {

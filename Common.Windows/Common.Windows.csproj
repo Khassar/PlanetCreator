@@ -55,9 +55,9 @@
     <Compile Include="WpfHelper.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Common\Common.csproj">
-      <Project>{C60AD99A-9980-45D7-BF5D-A782D66753FE}</Project>
-      <Name>Common</Name>
+    <ProjectReference Include="..\PlanetCreatorDll\PlanetCreatorDll.csproj">
+      <Project>{a7f90821-4d85-413a-a030-22b0bddbda99}</Project>
+      <Name>PlanetCreatorDll</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,4 +1,4 @@
-﻿namespace Common.AMath
+﻿namespace PlanetGeneratorDll.AMath
 {
     public class RefTriengle
     {

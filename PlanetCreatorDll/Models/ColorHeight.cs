@@ -1,7 +1,6 @@
 ﻿using System.ComponentModel;
 using System.Runtime.Serialization;
-using Common;
-using Common.Helpers;
+using PlanetGeneratorDll.Helpers;
 
 namespace PlanetGeneratorDll.Models
 {

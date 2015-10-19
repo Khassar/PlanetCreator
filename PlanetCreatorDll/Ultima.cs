@@ -1,6 +1,6 @@
 ﻿using System.Runtime.InteropServices;
 
-namespace Common
+namespace PlanetGeneratorDll
 {
     [StructLayout(LayoutKind.Explicit)]
     public struct Ultima

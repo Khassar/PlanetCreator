@@ -6,10 +6,10 @@ using System.Windows;
 using System.Windows.Interop;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using Common;
-using Common.AMath;
 using CommonWindows.Helpers;
 using Microsoft.Win32;
+using PlanetGeneratorDll;
+using PlanetGeneratorDll.AMath;
 
 namespace CommonWindows
 {

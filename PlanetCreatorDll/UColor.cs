@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Runtime.InteropServices;
-using Common.Flags;
-using Common.Helpers;
+using PlanetGeneratorDll.Flags;
+using PlanetGeneratorDll.Helpers;
 
-namespace Common
+namespace PlanetGeneratorDll
 {
     [StructLayout(LayoutKind.Explicit)]
     public struct UColor

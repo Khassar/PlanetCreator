@@ -4,7 +4,6 @@ using System.ComponentModel;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.Text;
-using Common;
 using PlanetGeneratorDll.Enums;
 
 namespace PlanetGeneratorDll.Models

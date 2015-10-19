@@ -3,8 +3,8 @@ using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Windows;
 using System.Windows.Controls;
-using Common.AMath;
 using CommonWindows;
+using PlanetGeneratorDll.AMath;
 using PlanetGeneratorDll.Models;
 
 namespace PlanetCreator.WPF.UI.ColorEditor

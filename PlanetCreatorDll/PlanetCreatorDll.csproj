@@ -43,11 +43,20 @@
   <ItemGroup>
     <Compile Include="Algorithms\GClassic.cs" />
     <Compile Include="Algorithms\IPlanetAlgorithm.cs" />
+    <Compile Include="AMath\APoint.cs" />
+    <Compile Include="AMath\APoint3D.cs" />
+    <Compile Include="AMath\APoint3F.cs" />
+    <Compile Include="AMath\APointF.cs" />
+    <Compile Include="AMath\RefTriengle.cs" />
+    <Compile Include="Constants.cs" />
     <Compile Include="Enums\AlgorithmType.cs" />
     <Compile Include="Enums\FileFormat3D.cs" />
     <Compile Include="Enums\GenerationOptionsCores.cs" />
     <Compile Include="Enums\ProjectionType.cs" />
     <Compile Include="Enums\ShadeType.cs" />
+    <Compile Include="Flags\UColorFlags.cs" />
+    <Compile Include="Helpers\RandomHelper.cs" />
+    <Compile Include="Helpers\StringHelper.cs" />
     <Compile Include="Models\PlanetContainer.cs" />
     <Compile Include="Models\ColorContainer.cs" />
     <Compile Include="Models\ColorHeight.cs" />
@@ -62,12 +71,10 @@
     <Compile Include="PlanetGeneratorNative.cs" />
     <Compile Include="Projections\MercatorProjection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Common\Common.csproj">
-      <Project>{c60ad99a-9980-45d7-bf5d-a782d66753fe}</Project>
-      <Name>Common</Name>
-    </ProjectReference>
+    <Compile Include="RangeF.cs" />
+    <Compile Include="UBitmap.cs" />
+    <Compile Include="UColor.cs" />
+    <Compile Include="Ultima.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

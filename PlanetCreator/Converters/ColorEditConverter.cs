@@ -2,8 +2,8 @@
 using System.Drawing;
 using System.Globalization;
 using System.Windows.Data;
-using Common;
 using CommonWindows.Helpers;
+using PlanetGeneratorDll;
 
 namespace PlanetCreator.WPF.Converters
 {

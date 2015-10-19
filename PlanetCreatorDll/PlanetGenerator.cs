@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Common;
-using Common.AMath;
 using PlanetGeneratorDll.Algorithms;
+using PlanetGeneratorDll.AMath;
 using PlanetGeneratorDll.Enums;
 using PlanetGeneratorDll.Models;
 

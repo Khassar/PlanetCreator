@@ -1,6 +1,4 @@
-﻿using Common;
-
-namespace PlanetGeneratorDll.Models
+﻿namespace PlanetGeneratorDll.Models
 {
     public class ColorContainer
     {
