@@ -1,0 +1,1 @@
+ilmerge\libz inject-dll --assembly bin\Release\PlanetCreator.WPF.exe --include bin\Release\*.dll --move

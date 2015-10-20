@@ -10,7 +10,6 @@ using MahApps.Metro.Controls.Dialogs;
 using PlanetCreator.WPF.Properties;
 using PlanetCreator.WPF.UI;
 using PlanetGeneratorDll;
-using PlanetGeneratorDll.Enums;
 using PlanetGeneratorDll.Models;
 
 namespace PlanetCreator.WPF
